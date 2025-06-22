@@ -1,19 +1,46 @@
-Book My Show APIs Spring Boot Project
-This project is a Spring Boot implementation of the backend APIs for a ticket booking system similar to the popular platform "BookMyShow". It provides a set of RESTful APIs that enable client applications to interact with the ticket booking system and perform various operations.
+# 🎟️ Book My Show APIs - Spring Boot Project
 
-Features
-User Registration: Users can create an account, log in, and manage their profile information.
-Movie Management: Admin users can add, edit, and remove movie from the system.
-Theater Management: Admin users can add, allocate seats, edit, and remove Theaters from the system.
-Ticket Booking: Users can browse through the available movie, select the desired event, and book tickets for it.
-Seat Selection: Users can choose their preferred seats from the available options for a selected event.
-Booking History: Users can view their booking history and check the details of their past bookings.
-Email Notifications: Users receive email notifications for successful bookings and important updates.
-Technologies Used
-Java 8+
-Spring Boot
-Spring MVC
-Spring Data JPA
-MySQL (as the database)
-Maven (for dependency management)
-SMTP Server (for sending email notifications)
+This project is a Spring Boot implementation of the backend APIs for a ticket booking system, inspired by the popular platform **BookMyShow**. It provides a set of RESTful APIs that enable client applications to interact with the system and perform various booking-related operations.
+
+---
+
+## 🚀 Features
+
+- **User Registration & Authentication**  
+  Users can register, log in, and manage their profile.
+
+- **Movie Management**  
+  Admins can add, edit, or remove movies from the system.
+
+- **Theater Management**  
+  Admins can add theaters, allocate seats, edit details, and remove them.
+
+- **Ticket Booking**  
+  Users can browse movies, view available shows, and book tickets.
+
+- **Seat Selection**  
+  Interactive seat selection for events/shows.
+
+- **Booking History**  
+  Users can access their past bookings and view details.
+
+- **Email Notifications**  
+  Confirmation emails sent to users on successful booking and updates.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java 8+**
+- **Spring Boot**
+- **Spring MVC**
+- **Spring Data JPA**
+- **MySQL** – Relational database
+- **Maven** – Dependency management and build tool
+- **SMTP Server** – For sending email notifications
+
+---
+
+
+
+
